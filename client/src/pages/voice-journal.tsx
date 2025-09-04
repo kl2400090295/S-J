@@ -172,7 +172,7 @@ export default function VoiceJournal() {
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center space-x-2">
               <Mic className="w-8 h-8" data-testid="header-mic-icon" />
-              <h1 className="text-2xl font-bold" data-testid="app-title">Voice Journal</h1>
+              <h1 className="text-3xl font-script font-bold tracking-wide" data-testid="app-title">Jo's Singing Journal</h1>
             </div>
             <div className="flex items-center space-x-1">
               <Music className="w-5 h-5" data-testid="header-music-icon" />
