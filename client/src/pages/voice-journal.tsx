@@ -29,15 +29,7 @@ export default function VoiceJournal() {
 
   // Load data from localStorage on component mount
   useEffect(() => {
-    const savedEntries = localStorage.getItem('voiceJournalEntries');
-    const savedActivities = localStorage.getItem('voiceJournalActivities');
-    
-    if (savedEntries) {
-      setEntries(JSON.parse(savedEntries));
-    }
-    if (savedActivities) {
-      setWeeklyActivities(JSON.parse(savedActivities));
-    }
+    // localStorage access removed for debugging
   }, []);
 
   const formatDate = (date: Date) => {
